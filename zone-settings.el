@@ -25,9 +25,9 @@
   (delete-other-windows)
   ;;
   ;; the state of menu bar, tool bar and tabbar
-  (when tabbar-mode
-    (tabbar-mode -1)
-    (add-to-list 'zone-ad-restore '(tabbar-mode 1)))
+  (when tab-bar-mode
+    (tab-bar-mode -1)
+    (add-to-list 'zone-ad-restore '(tab-bar-mode 1)))
   (when scroll-bar-mode
     (scroll-bar-mode -1)
     (add-to-list 'zone-ad-restore '(scroll-bar-mode 1)))
